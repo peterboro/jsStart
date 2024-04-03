@@ -81,3 +81,27 @@ EXERCISE
 
 
 // QUESTION FOUR 
+
+document.getElementById("getNumber").addEventListener("click", ()=> {
+    let numberP = document.getElementById("numberP").value;
+
+    if (numberP >= 80) {
+        console.log("The grade is A");
+    } 
+    else if (numberP >= 70) {
+        console.log("The grade is B");
+    }
+    else if (numberP >= 60){
+        console.log("The grade is C");
+    }
+    else if (numberP >= 50){
+        console.log("The grade is D");
+    }
+    else if (numberP >= 40){
+        console.log("The grade is E");
+    }
+    else if (numberP >= 30){
+        console.log("The grade is F");
+    }
+    
+})
